@@ -56,10 +56,3 @@ class PDFIngestion:
         vectordb.persist()
         return vectordb
     
-# if __name__ == "__main__":
-#     ingestion = PDFIngestion()
-#     pdf = ["/media/r00t/Neuraligence/resume Project/PDF-RAG-with-Evals-Observability/budget_speech.pdf"]
-#     docs = ingestion.load_pdf(file_path=pdf)
-#     chunks = ingestion.split_docs(docs=docs)
-#     vectordb = ingestion.create_vectorstore(docs=chunks)
-#     print(f"PDF ingestion is completed! and data is stored in {ingestion.persist_directory}")
