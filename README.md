@@ -61,6 +61,7 @@ sudo docker run -p 8000:8000 pdf-rag-api
 - AWS/GCP Deployment
 - Persist vector DB in GCS / Postgres for scaling
 - Add frontend UI (Streamlit / React)
+- Upload PDFs 
 
 ### 👤 Author
 
