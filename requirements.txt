@@ -1,0 +1,11 @@
+langchain
+langgraph
+ragas
+chromadb
+streamlit
+pydantic
+python-dotenv
+pytest
+pypdf
+langchain-chroma
+fastapi
