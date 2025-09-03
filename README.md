@@ -11,7 +11,6 @@
 ---
 
 ## ✨ Features
-- 
 - 🔎 **Ask questions** against ingested PDFs via `/ask`  
 - 📊 **Observability** → latency 
 - ☁️ **Cloud-native** → containerized and deployed
@@ -20,7 +19,7 @@
 ---
 
 ## 🛠️ Tech Stack
-- **Backend:** FastAPI, Python 3.11  
+- **Backend:** FastAPI, Python 3.11 
 - **LLM:** OpenAI (GPT-5) via LangChain  
 - **Vector Store:** ChromaDB  
 - **Observability:** LangSmith + custom logs  
